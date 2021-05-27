@@ -1,6 +1,6 @@
 [package]
 name = "mqttrs"
-version = "0.3.0"
+version = "0.3.1"
 authors = ["00imvj00 <vijaybambhaniya007@gmail.com>",
            "Vincent de Phily <moltonel@gmail.com>",
            "Mathias Koch <smilykoch@gmail.com>"]
@@ -22,7 +22,7 @@ derive = ["serde"]
 std = ["bytes/std", "serde/std"]
 
 [dependencies]
-bytes = { version = "0.5", default-features = false }
+bytes = { version = "1.0", default-features = false }
 serde = { version = "1.0", features = ["derive"], optional = true }
 
 [dev-dependencies]
